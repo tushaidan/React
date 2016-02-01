@@ -2,8 +2,7 @@ var React = require('react');
 var ZHCN = require('../i18n/zh-CN');
 var EN = require('../i18n/en');
 var moment = require('moment');
-moment.locale('en');
-debugger;
+moment.locale('zh-CN');
 var names = ['Alice', 'Emily', 'Kate'];
 
 var arr = [

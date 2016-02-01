@@ -4,10 +4,12 @@
 //commonJs
 var react = require('react');
 var ReactDOM = require('react-dom');
-var Hello = require('./modules/hello');
+import Hello from './modules/hello';
+//var Hello = require('./modules/hello');
 var Demo = require('./modules/demo2');
 var Demo_A = require('./modules/demo3');
 var appCss = require('./modules/Appcss/pro.css');
+import Demo_B from './modules/demo4';
 
  ReactDOM.render(
  	<div>
@@ -17,9 +19,10 @@ var appCss = require('./modules/Appcss/pro.css');
     	</div>
     	<div id='demo4'>
     		<Demo_A>
-    			<span> A </span>
-          		<span> B </span>
+    			<span> AAAAAAA </span>
+          		<span> BBBBBBB </span>
     		</Demo_A>
+            <Demo_B title='name'/>
     	</div>
     </div>,
     document.getElementById('xxx')
